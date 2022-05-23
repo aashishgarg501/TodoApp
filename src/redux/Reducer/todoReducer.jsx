@@ -34,13 +34,8 @@ const todoReducer = (state = initalState, action) => {
             return {
                 ...state, update
             }
-
-
-
         default: return state;
     }
-
-
 
 }
 
